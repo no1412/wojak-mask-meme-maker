@@ -159,7 +159,7 @@ const ImageEditor = () => {
     });
     const link = document.createElement('a');
     link.href = dataURL;
-    link.download = 'edited-image.png';
+    link.download = 'wojak-mask-meme.png';
     link.click();
   };
 
