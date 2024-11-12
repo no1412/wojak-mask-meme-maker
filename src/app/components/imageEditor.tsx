@@ -46,7 +46,7 @@ const ImageEditor = () => {
 
   useEffect(() => {
     if (canvas) {
-      canvasLoadImg(canvas, '/Wojak.jpg');
+      canvasLoadImg(canvas, '/crying-wojak.jpg');
     }
   }, [canvas]);
 
