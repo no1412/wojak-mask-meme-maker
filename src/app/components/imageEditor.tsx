@@ -8,7 +8,7 @@ import { fabric } from "fabric-pure-browser";
 const ImageEditor = () => {
   const canvasRef = useRef(null);
   const [canvas, setCanvas] = useState(null);
-  const [uploadedImage, setUploadedImage] = useState(null);
+  const [setUploadedImage] = useState(null);
   const fileInputRef = useRef(null); // 引入 file input 的引用
 
   // sticker list
